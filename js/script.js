@@ -22,7 +22,7 @@ function createTr (el1, el2) {
     tr.appendChild(td2);
     table.appendChild(tr)
 }
- 
+
 getJson ()
 
 function getJson () {

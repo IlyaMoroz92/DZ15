@@ -9,29 +9,29 @@
     <link rel="shortcut icon" href="/img/Cash-icon.png" type="image/x-icon">
 </head>
 <body>
-    <header>Валюты</header>
     <main class='container'>
         <div class="select">
-            <select onchange ='getKurs()' name="" id="">
-                <option value="350">Выберите валюту</option>
+            <select  name="" id="">
+                <option>Выберите валюту</option>
             </select>
         </div>
+        <div class="p">
+            <p> From <input class = 'input1' type="date"  value="" name="date" id=""> till <input class = 'input2' type="date" name="date" id=""></p>
+        </div>
         <div class="btns">
-            <button class="week" onclick ='getKurs()'>Week</button>
+            <button class="week">Week</button>
             <button class="month">Month</button>
             <button class="quarter">Quarter</button>
             <button class="year">Year</button>
-        </div>
-        <div class="p">
-            <p> From <input class = 'input1' onchange ='getKurs()' type="date" value="" name="date" id=""> till <input class = 'input2' onchange ='getKurs()'type="date" name="date" id=""></p>
         </div>
     </main>
     <div class="tb">
         <table>
             <th>Date</th>
-            <th>Course</th>
+            <th>Rate</th>
         </table>
     </div>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
     <script src="/js/script.js"></script>
 </body>
 </html>

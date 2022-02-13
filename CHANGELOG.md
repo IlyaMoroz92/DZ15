@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add logo
 - add dushboard with daily rates
 
-## [1.3.0] - 2022-02-02 
+## [1.3.0] - 2022-02-13 
 ### Added 
 - dayjs for buttons (week, month, quarter, year)
 - week button functionality
